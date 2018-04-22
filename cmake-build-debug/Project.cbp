@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/meynaert/RR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/meynaert/RR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/meynaert/RR/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RR">
+				<Option output="/home/meynaert/RR/cmake-build-debug/src/RR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/meynaert/RR/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/OGRE"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 RR"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RR/fast">
+				<Option output="/home/meynaert/RR/cmake-build-debug/src/RR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/meynaert/RR/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/OGRE"/>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 RR/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/meynaert/RR/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/meynaert/RR/src/3d/Color.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/3d/Mesh.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/3d/Point.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/3d/Surface.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/3d/Triangle.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/3d/Vector.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/exception/InvalidMagicNumber.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/exception/InvalidMagicNumber.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/MeshLoader.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/Resource.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/ResourcesProvider.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/lwo/LwoLoader.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/lwo/LwoLoader.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/wad/WadFile.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/wad/WadFile.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/wad/WadObject.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/loaders/wad/WadObject.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/main.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/ogre/Application.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/ogre/Application.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/ogre/MeshConverter.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/ogre/MeshConverter.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/ogre/Options.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/ogre/SDLWindow.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/ogre/SDLWindow.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/util/BinaryReader.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/util/BinaryReader.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
