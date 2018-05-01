@@ -57,28 +57,28 @@ include src/CMakeFiles/RR.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/RR.dir/flags.make
 
-src/CMakeFiles/RR.dir/main.cpp.o: src/CMakeFiles/RR.dir/flags.make
-src/CMakeFiles/RR.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/RR.dir/main.cpp.o"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/main.cpp.o -c /home/meynaert/RR/src/main.cpp
+src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o: ../src/exception/ContextCreationException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o -c /home/meynaert/RR/src/exception/ContextCreationException.cpp
 
-src/CMakeFiles/RR.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/main.cpp.i"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/main.cpp > CMakeFiles/RR.dir/main.cpp.i
+src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/exception/ContextCreationException.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/exception/ContextCreationException.cpp > CMakeFiles/RR.dir/exception/ContextCreationException.cpp.i
 
-src/CMakeFiles/RR.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/main.cpp.s"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/main.cpp -o CMakeFiles/RR.dir/main.cpp.s
+src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/exception/ContextCreationException.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/exception/ContextCreationException.cpp -o CMakeFiles/RR.dir/exception/ContextCreationException.cpp.s
 
-src/CMakeFiles/RR.dir/main.cpp.o.requires:
+src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/RR.dir/main.cpp.o.requires
+.PHONY : src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.requires
 
-src/CMakeFiles/RR.dir/main.cpp.o.provides: src/CMakeFiles/RR.dir/main.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/main.cpp.o.provides.build
-.PHONY : src/CMakeFiles/RR.dir/main.cpp.o.provides
+src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.provides: src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.provides
 
-src/CMakeFiles/RR.dir/main.cpp.o.provides.build: src/CMakeFiles/RR.dir/main.cpp.o
+src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.provides.build: src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o
 
 
 src/CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.o: src/CMakeFiles/RR.dir/flags.make
@@ -105,129 +105,81 @@ src/CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.o.provides: src/CMakeFile
 src/CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.o.provides.build: src/CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.o
 
 
-src/CMakeFiles/RR.dir/ogre/Application.cpp.o: src/CMakeFiles/RR.dir/flags.make
-src/CMakeFiles/RR.dir/ogre/Application.cpp.o: ../src/ogre/Application.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/RR.dir/ogre/Application.cpp.o"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/ogre/Application.cpp.o -c /home/meynaert/RR/src/ogre/Application.cpp
+src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o: ../src/exception/NotImplemented.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/exception/NotImplemented.cpp.o -c /home/meynaert/RR/src/exception/NotImplemented.cpp
 
-src/CMakeFiles/RR.dir/ogre/Application.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/ogre/Application.cpp.i"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/ogre/Application.cpp > CMakeFiles/RR.dir/ogre/Application.cpp.i
+src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/exception/NotImplemented.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/exception/NotImplemented.cpp > CMakeFiles/RR.dir/exception/NotImplemented.cpp.i
 
-src/CMakeFiles/RR.dir/ogre/Application.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/ogre/Application.cpp.s"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/ogre/Application.cpp -o CMakeFiles/RR.dir/ogre/Application.cpp.s
+src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/exception/NotImplemented.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/exception/NotImplemented.cpp -o CMakeFiles/RR.dir/exception/NotImplemented.cpp.s
 
-src/CMakeFiles/RR.dir/ogre/Application.cpp.o.requires:
+src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/RR.dir/ogre/Application.cpp.o.requires
+.PHONY : src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.requires
 
-src/CMakeFiles/RR.dir/ogre/Application.cpp.o.provides: src/CMakeFiles/RR.dir/ogre/Application.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/Application.cpp.o.provides.build
-.PHONY : src/CMakeFiles/RR.dir/ogre/Application.cpp.o.provides
+src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.provides: src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.provides
 
-src/CMakeFiles/RR.dir/ogre/Application.cpp.o.provides.build: src/CMakeFiles/RR.dir/ogre/Application.cpp.o
-
-
-src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o: src/CMakeFiles/RR.dir/flags.make
-src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o: ../src/ogre/MeshConverter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o -c /home/meynaert/RR/src/ogre/MeshConverter.cpp
-
-src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/ogre/MeshConverter.cpp.i"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/ogre/MeshConverter.cpp > CMakeFiles/RR.dir/ogre/MeshConverter.cpp.i
-
-src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/ogre/MeshConverter.cpp.s"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/ogre/MeshConverter.cpp -o CMakeFiles/RR.dir/ogre/MeshConverter.cpp.s
-
-src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.requires
-
-src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.provides: src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.provides.build
-.PHONY : src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.provides
-
-src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.provides.build: src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o
+src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.provides.build: src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o
 
 
-src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o: src/CMakeFiles/RR.dir/flags.make
-src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o: ../src/ogre/SDLWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o -c /home/meynaert/RR/src/ogre/SDLWindow.cpp
+src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o: ../src/exception/ResourceNotFound.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o -c /home/meynaert/RR/src/exception/ResourceNotFound.cpp
 
-src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/ogre/SDLWindow.cpp.i"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/ogre/SDLWindow.cpp > CMakeFiles/RR.dir/ogre/SDLWindow.cpp.i
+src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/exception/ResourceNotFound.cpp > CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.i
 
-src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/ogre/SDLWindow.cpp.s"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/ogre/SDLWindow.cpp -o CMakeFiles/RR.dir/ogre/SDLWindow.cpp.s
+src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/exception/ResourceNotFound.cpp -o CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.s
 
-src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.requires:
+src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.requires
+.PHONY : src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.requires
 
-src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.provides: src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.provides.build
-.PHONY : src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.provides
+src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.provides: src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.provides
 
-src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.provides.build: src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o
-
-
-src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o: src/CMakeFiles/RR.dir/flags.make
-src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o: ../src/util/BinaryReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/util/BinaryReader.cpp.o -c /home/meynaert/RR/src/util/BinaryReader.cpp
-
-src/CMakeFiles/RR.dir/util/BinaryReader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/util/BinaryReader.cpp.i"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/util/BinaryReader.cpp > CMakeFiles/RR.dir/util/BinaryReader.cpp.i
-
-src/CMakeFiles/RR.dir/util/BinaryReader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/util/BinaryReader.cpp.s"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/util/BinaryReader.cpp -o CMakeFiles/RR.dir/util/BinaryReader.cpp.s
-
-src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.requires
-
-src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.provides: src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.provides.build
-.PHONY : src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.provides
-
-src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.provides.build: src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o
+src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.provides.build: src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o
 
 
-src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o: src/CMakeFiles/RR.dir/flags.make
-src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o: ../src/loaders/lwo/LwoLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o -c /home/meynaert/RR/src/loaders/lwo/LwoLoader.cpp
+src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o: ../src/loaders/mesh/lwo/LwoLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o -c /home/meynaert/RR/src/loaders/mesh/lwo/LwoLoader.cpp
 
-src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.i"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/loaders/lwo/LwoLoader.cpp > CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.i
+src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/loaders/mesh/lwo/LwoLoader.cpp > CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.i
 
-src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.s"
-	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/loaders/lwo/LwoLoader.cpp -o CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.s
+src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/loaders/mesh/lwo/LwoLoader.cpp -o CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.s
 
-src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.requires:
+src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.requires:
 
-.PHONY : src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.requires
+.PHONY : src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.requires
 
-src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.provides: src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.provides.build
-.PHONY : src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.provides
+src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.provides: src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.provides
 
-src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.provides.build: src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o
+src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.provides.build: src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o
 
 
 src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o: src/CMakeFiles/RR.dir/flags.make
 src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o: ../src/loaders/wad/WadFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o"
 	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o -c /home/meynaert/RR/src/loaders/wad/WadFile.cpp
 
 src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.i: cmake_force
@@ -251,7 +203,7 @@ src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o.provides.build: src/CMakeFiles/R
 
 src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o: src/CMakeFiles/RR.dir/flags.make
 src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o: ../src/loaders/wad/WadObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o"
 	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o -c /home/meynaert/RR/src/loaders/wad/WadObject.cpp
 
 src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.i: cmake_force
@@ -273,35 +225,265 @@ src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o.provides: src/CMakeFiles/RR.di
 src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o.provides.build: src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o
 
 
+src/CMakeFiles/RR.dir/main.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/RR.dir/main.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/main.cpp.o -c /home/meynaert/RR/src/main.cpp
+
+src/CMakeFiles/RR.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/main.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/main.cpp > CMakeFiles/RR.dir/main.cpp.i
+
+src/CMakeFiles/RR.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/main.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/main.cpp -o CMakeFiles/RR.dir/main.cpp.s
+
+src/CMakeFiles/RR.dir/main.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/main.cpp.o.requires
+
+src/CMakeFiles/RR.dir/main.cpp.o.provides: src/CMakeFiles/RR.dir/main.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/main.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/main.cpp.o.provides
+
+src/CMakeFiles/RR.dir/main.cpp.o.provides.build: src/CMakeFiles/RR.dir/main.cpp.o
+
+
+src/CMakeFiles/RR.dir/objects/Mesh.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/objects/Mesh.cpp.o: ../src/objects/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/RR.dir/objects/Mesh.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/objects/Mesh.cpp.o -c /home/meynaert/RR/src/objects/Mesh.cpp
+
+src/CMakeFiles/RR.dir/objects/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/objects/Mesh.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/objects/Mesh.cpp > CMakeFiles/RR.dir/objects/Mesh.cpp.i
+
+src/CMakeFiles/RR.dir/objects/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/objects/Mesh.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/objects/Mesh.cpp -o CMakeFiles/RR.dir/objects/Mesh.cpp.s
+
+src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.requires
+
+src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.provides: src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.provides
+
+src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.provides.build: src/CMakeFiles/RR.dir/objects/Mesh.cpp.o
+
+
+src/CMakeFiles/RR.dir/opengl/Application.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/opengl/Application.cpp.o: ../src/opengl/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/RR.dir/opengl/Application.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/opengl/Application.cpp.o -c /home/meynaert/RR/src/opengl/Application.cpp
+
+src/CMakeFiles/RR.dir/opengl/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/opengl/Application.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/opengl/Application.cpp > CMakeFiles/RR.dir/opengl/Application.cpp.i
+
+src/CMakeFiles/RR.dir/opengl/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/opengl/Application.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/opengl/Application.cpp -o CMakeFiles/RR.dir/opengl/Application.cpp.s
+
+src/CMakeFiles/RR.dir/opengl/Application.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/opengl/Application.cpp.o.requires
+
+src/CMakeFiles/RR.dir/opengl/Application.cpp.o.provides: src/CMakeFiles/RR.dir/opengl/Application.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Application.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/opengl/Application.cpp.o.provides
+
+src/CMakeFiles/RR.dir/opengl/Application.cpp.o.provides.build: src/CMakeFiles/RR.dir/opengl/Application.cpp.o
+
+
+src/CMakeFiles/RR.dir/opengl/Camera.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/opengl/Camera.cpp.o: ../src/opengl/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/RR.dir/opengl/Camera.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/opengl/Camera.cpp.o -c /home/meynaert/RR/src/opengl/Camera.cpp
+
+src/CMakeFiles/RR.dir/opengl/Camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/opengl/Camera.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/opengl/Camera.cpp > CMakeFiles/RR.dir/opengl/Camera.cpp.i
+
+src/CMakeFiles/RR.dir/opengl/Camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/opengl/Camera.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/opengl/Camera.cpp -o CMakeFiles/RR.dir/opengl/Camera.cpp.s
+
+src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.requires
+
+src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.provides: src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.provides
+
+src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.provides.build: src/CMakeFiles/RR.dir/opengl/Camera.cpp.o
+
+
+src/CMakeFiles/RR.dir/opengl/Context.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/opengl/Context.cpp.o: ../src/opengl/Context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/RR.dir/opengl/Context.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/opengl/Context.cpp.o -c /home/meynaert/RR/src/opengl/Context.cpp
+
+src/CMakeFiles/RR.dir/opengl/Context.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/opengl/Context.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/opengl/Context.cpp > CMakeFiles/RR.dir/opengl/Context.cpp.i
+
+src/CMakeFiles/RR.dir/opengl/Context.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/opengl/Context.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/opengl/Context.cpp -o CMakeFiles/RR.dir/opengl/Context.cpp.s
+
+src/CMakeFiles/RR.dir/opengl/Context.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/opengl/Context.cpp.o.requires
+
+src/CMakeFiles/RR.dir/opengl/Context.cpp.o.provides: src/CMakeFiles/RR.dir/opengl/Context.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Context.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/opengl/Context.cpp.o.provides
+
+src/CMakeFiles/RR.dir/opengl/Context.cpp.o.provides.build: src/CMakeFiles/RR.dir/opengl/Context.cpp.o
+
+
+src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o: ../src/opengl/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/opengl/Mesh.cpp.o -c /home/meynaert/RR/src/opengl/Mesh.cpp
+
+src/CMakeFiles/RR.dir/opengl/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/opengl/Mesh.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/opengl/Mesh.cpp > CMakeFiles/RR.dir/opengl/Mesh.cpp.i
+
+src/CMakeFiles/RR.dir/opengl/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/opengl/Mesh.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/opengl/Mesh.cpp -o CMakeFiles/RR.dir/opengl/Mesh.cpp.s
+
+src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.requires
+
+src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.provides: src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.provides
+
+src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.provides.build: src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o
+
+
+src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o: ../src/opengl/MeshConverter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o -c /home/meynaert/RR/src/opengl/MeshConverter.cpp
+
+src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/opengl/MeshConverter.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/opengl/MeshConverter.cpp > CMakeFiles/RR.dir/opengl/MeshConverter.cpp.i
+
+src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/opengl/MeshConverter.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/opengl/MeshConverter.cpp -o CMakeFiles/RR.dir/opengl/MeshConverter.cpp.s
+
+src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.requires
+
+src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.provides: src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.provides
+
+src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.provides.build: src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o
+
+
+src/CMakeFiles/RR.dir/opengl/Program.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/opengl/Program.cpp.o: ../src/opengl/Program.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/RR.dir/opengl/Program.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/opengl/Program.cpp.o -c /home/meynaert/RR/src/opengl/Program.cpp
+
+src/CMakeFiles/RR.dir/opengl/Program.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/opengl/Program.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/opengl/Program.cpp > CMakeFiles/RR.dir/opengl/Program.cpp.i
+
+src/CMakeFiles/RR.dir/opengl/Program.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/opengl/Program.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/opengl/Program.cpp -o CMakeFiles/RR.dir/opengl/Program.cpp.s
+
+src/CMakeFiles/RR.dir/opengl/Program.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/opengl/Program.cpp.o.requires
+
+src/CMakeFiles/RR.dir/opengl/Program.cpp.o.provides: src/CMakeFiles/RR.dir/opengl/Program.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Program.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/opengl/Program.cpp.o.provides
+
+src/CMakeFiles/RR.dir/opengl/Program.cpp.o.provides.build: src/CMakeFiles/RR.dir/opengl/Program.cpp.o
+
+
+src/CMakeFiles/RR.dir/opengl/Scene.cpp.o: src/CMakeFiles/RR.dir/flags.make
+src/CMakeFiles/RR.dir/opengl/Scene.cpp.o: ../src/opengl/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/RR.dir/opengl/Scene.cpp.o"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR.dir/opengl/Scene.cpp.o -c /home/meynaert/RR/src/opengl/Scene.cpp
+
+src/CMakeFiles/RR.dir/opengl/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR.dir/opengl/Scene.cpp.i"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meynaert/RR/src/opengl/Scene.cpp > CMakeFiles/RR.dir/opengl/Scene.cpp.i
+
+src/CMakeFiles/RR.dir/opengl/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR.dir/opengl/Scene.cpp.s"
+	cd /home/meynaert/RR/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meynaert/RR/src/opengl/Scene.cpp -o CMakeFiles/RR.dir/opengl/Scene.cpp.s
+
+src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.requires
+
+src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.provides: src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.provides.build
+.PHONY : src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.provides
+
+src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.provides.build: src/CMakeFiles/RR.dir/opengl/Scene.cpp.o
+
+
 # Object files for target RR
 RR_OBJECTS = \
-"CMakeFiles/RR.dir/main.cpp.o" \
+"CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o" \
 "CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.o" \
-"CMakeFiles/RR.dir/ogre/Application.cpp.o" \
-"CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o" \
-"CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o" \
-"CMakeFiles/RR.dir/util/BinaryReader.cpp.o" \
-"CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o" \
+"CMakeFiles/RR.dir/exception/NotImplemented.cpp.o" \
+"CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o" \
+"CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o" \
 "CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o" \
-"CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o"
+"CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o" \
+"CMakeFiles/RR.dir/main.cpp.o" \
+"CMakeFiles/RR.dir/objects/Mesh.cpp.o" \
+"CMakeFiles/RR.dir/opengl/Application.cpp.o" \
+"CMakeFiles/RR.dir/opengl/Camera.cpp.o" \
+"CMakeFiles/RR.dir/opengl/Context.cpp.o" \
+"CMakeFiles/RR.dir/opengl/Mesh.cpp.o" \
+"CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o" \
+"CMakeFiles/RR.dir/opengl/Program.cpp.o" \
+"CMakeFiles/RR.dir/opengl/Scene.cpp.o"
 
 # External object files for target RR
 RR_EXTERNAL_OBJECTS =
 
-src/RR: src/CMakeFiles/RR.dir/main.cpp.o
+src/RR: src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o
 src/RR: src/CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.o
-src/RR: src/CMakeFiles/RR.dir/ogre/Application.cpp.o
-src/RR: src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o
-src/RR: src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o
-src/RR: src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o
-src/RR: src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o
+src/RR: src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o
+src/RR: src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o
+src/RR: src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o
 src/RR: src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o
 src/RR: src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o
+src/RR: src/CMakeFiles/RR.dir/main.cpp.o
+src/RR: src/CMakeFiles/RR.dir/objects/Mesh.cpp.o
+src/RR: src/CMakeFiles/RR.dir/opengl/Application.cpp.o
+src/RR: src/CMakeFiles/RR.dir/opengl/Camera.cpp.o
+src/RR: src/CMakeFiles/RR.dir/opengl/Context.cpp.o
+src/RR: src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o
+src/RR: src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o
+src/RR: src/CMakeFiles/RR.dir/opengl/Program.cpp.o
+src/RR: src/CMakeFiles/RR.dir/opengl/Scene.cpp.o
 src/RR: src/CMakeFiles/RR.dir/build.make
-src/RR: /usr/local/lib/libOgreMain.so
-src/RR: /usr/lib/libSDL2.so
+src/RR: /usr/lib/libGL.so
+src/RR: /usr/lib/libGLU.so
 src/RR: src/CMakeFiles/RR.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable RR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/meynaert/RR/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable RR"
 	cd /home/meynaert/RR/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RR.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -309,15 +491,22 @@ src/CMakeFiles/RR.dir/build: src/RR
 
 .PHONY : src/CMakeFiles/RR.dir/build
 
-src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/main.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o.requires
 src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.o.requires
-src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/ogre/Application.cpp.o.requires
-src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o.requires
-src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o.requires
-src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o.requires
-src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o.requires
 src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/loaders/wad/WadFile.cpp.o.requires
 src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/loaders/wad/WadObject.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/main.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/objects/Mesh.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/opengl/Application.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/opengl/Camera.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/opengl/Context.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/opengl/Program.cpp.o.requires
+src/CMakeFiles/RR.dir/requires: src/CMakeFiles/RR.dir/opengl/Scene.cpp.o.requires
 
 .PHONY : src/CMakeFiles/RR.dir/requires
 

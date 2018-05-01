@@ -2,9 +2,11 @@
 
 #include <fstream>
 
+#include "../../exception/ResourceNotFound.h"
 #include "../../exception/InvalidMagicNumber.h"
 
 WadFile::WadFile(const std::string& name) {
+    open = true;
     std::ifstream file(name, std::ios::binary);
 
     if(!file.is_open()) {
@@ -52,19 +54,18 @@ WadFile::WadFile(const std::string& name) {
 
 }
 
-
-const std::vector<std::string>& WadFile::getAllResourcesNames() {
-    return this->resourcesNames;
-}
-
-const std::vector<std::string>& WadFile::getAllResourcesPaths() {
-    return this->resourcesPaths;
-}
-
 bool WadFile::hasResources(const std::string& name) {
     return resources.find(name) != resources.end();
 }
 
 std::shared_ptr<Resource> WadFile::getResource(const std::string& name) {
+    if(!open || !hasResources(name)) {
+        throw ResourceNotFound(name);
+    }
     return this->resources[name];
+}
+
+void WadFile::close() {
+    resources.clear();
+    open=false;
 }

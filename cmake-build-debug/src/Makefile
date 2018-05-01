@@ -125,6 +125,33 @@ RR/fast:
 	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/build
 .PHONY : RR/fast
 
+exception/ContextCreationException.o: exception/ContextCreationException.cpp.o
+
+.PHONY : exception/ContextCreationException.o
+
+# target to build an object file
+exception/ContextCreationException.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.o
+.PHONY : exception/ContextCreationException.cpp.o
+
+exception/ContextCreationException.i: exception/ContextCreationException.cpp.i
+
+.PHONY : exception/ContextCreationException.i
+
+# target to preprocess a source file
+exception/ContextCreationException.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.i
+.PHONY : exception/ContextCreationException.cpp.i
+
+exception/ContextCreationException.s: exception/ContextCreationException.cpp.s
+
+.PHONY : exception/ContextCreationException.s
+
+# target to generate assembly for a file
+exception/ContextCreationException.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ContextCreationException.cpp.s
+.PHONY : exception/ContextCreationException.cpp.s
+
 exception/InvalidMagicNumber.o: exception/InvalidMagicNumber.cpp.o
 
 .PHONY : exception/InvalidMagicNumber.o
@@ -152,32 +179,86 @@ exception/InvalidMagicNumber.cpp.s:
 	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/InvalidMagicNumber.cpp.s
 .PHONY : exception/InvalidMagicNumber.cpp.s
 
-loaders/lwo/LwoLoader.o: loaders/lwo/LwoLoader.cpp.o
+exception/NotImplemented.o: exception/NotImplemented.cpp.o
 
-.PHONY : loaders/lwo/LwoLoader.o
+.PHONY : exception/NotImplemented.o
 
 # target to build an object file
-loaders/lwo/LwoLoader.cpp.o:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.o
-.PHONY : loaders/lwo/LwoLoader.cpp.o
+exception/NotImplemented.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.o
+.PHONY : exception/NotImplemented.cpp.o
 
-loaders/lwo/LwoLoader.i: loaders/lwo/LwoLoader.cpp.i
+exception/NotImplemented.i: exception/NotImplemented.cpp.i
 
-.PHONY : loaders/lwo/LwoLoader.i
+.PHONY : exception/NotImplemented.i
 
 # target to preprocess a source file
-loaders/lwo/LwoLoader.cpp.i:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.i
-.PHONY : loaders/lwo/LwoLoader.cpp.i
+exception/NotImplemented.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.i
+.PHONY : exception/NotImplemented.cpp.i
 
-loaders/lwo/LwoLoader.s: loaders/lwo/LwoLoader.cpp.s
+exception/NotImplemented.s: exception/NotImplemented.cpp.s
 
-.PHONY : loaders/lwo/LwoLoader.s
+.PHONY : exception/NotImplemented.s
 
 # target to generate assembly for a file
-loaders/lwo/LwoLoader.cpp.s:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/lwo/LwoLoader.cpp.s
-.PHONY : loaders/lwo/LwoLoader.cpp.s
+exception/NotImplemented.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/NotImplemented.cpp.s
+.PHONY : exception/NotImplemented.cpp.s
+
+exception/ResourceNotFound.o: exception/ResourceNotFound.cpp.o
+
+.PHONY : exception/ResourceNotFound.o
+
+# target to build an object file
+exception/ResourceNotFound.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.o
+.PHONY : exception/ResourceNotFound.cpp.o
+
+exception/ResourceNotFound.i: exception/ResourceNotFound.cpp.i
+
+.PHONY : exception/ResourceNotFound.i
+
+# target to preprocess a source file
+exception/ResourceNotFound.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.i
+.PHONY : exception/ResourceNotFound.cpp.i
+
+exception/ResourceNotFound.s: exception/ResourceNotFound.cpp.s
+
+.PHONY : exception/ResourceNotFound.s
+
+# target to generate assembly for a file
+exception/ResourceNotFound.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/exception/ResourceNotFound.cpp.s
+.PHONY : exception/ResourceNotFound.cpp.s
+
+loaders/mesh/lwo/LwoLoader.o: loaders/mesh/lwo/LwoLoader.cpp.o
+
+.PHONY : loaders/mesh/lwo/LwoLoader.o
+
+# target to build an object file
+loaders/mesh/lwo/LwoLoader.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.o
+.PHONY : loaders/mesh/lwo/LwoLoader.cpp.o
+
+loaders/mesh/lwo/LwoLoader.i: loaders/mesh/lwo/LwoLoader.cpp.i
+
+.PHONY : loaders/mesh/lwo/LwoLoader.i
+
+# target to preprocess a source file
+loaders/mesh/lwo/LwoLoader.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.i
+.PHONY : loaders/mesh/lwo/LwoLoader.cpp.i
+
+loaders/mesh/lwo/LwoLoader.s: loaders/mesh/lwo/LwoLoader.cpp.s
+
+.PHONY : loaders/mesh/lwo/LwoLoader.s
+
+# target to generate assembly for a file
+loaders/mesh/lwo/LwoLoader.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/loaders/mesh/lwo/LwoLoader.cpp.s
+.PHONY : loaders/mesh/lwo/LwoLoader.cpp.s
 
 loaders/wad/WadFile.o: loaders/wad/WadFile.cpp.o
 
@@ -260,113 +341,221 @@ main.cpp.s:
 	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-ogre/Application.o: ogre/Application.cpp.o
+objects/Mesh.o: objects/Mesh.cpp.o
 
-.PHONY : ogre/Application.o
-
-# target to build an object file
-ogre/Application.cpp.o:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/Application.cpp.o
-.PHONY : ogre/Application.cpp.o
-
-ogre/Application.i: ogre/Application.cpp.i
-
-.PHONY : ogre/Application.i
-
-# target to preprocess a source file
-ogre/Application.cpp.i:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/Application.cpp.i
-.PHONY : ogre/Application.cpp.i
-
-ogre/Application.s: ogre/Application.cpp.s
-
-.PHONY : ogre/Application.s
-
-# target to generate assembly for a file
-ogre/Application.cpp.s:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/Application.cpp.s
-.PHONY : ogre/Application.cpp.s
-
-ogre/MeshConverter.o: ogre/MeshConverter.cpp.o
-
-.PHONY : ogre/MeshConverter.o
+.PHONY : objects/Mesh.o
 
 # target to build an object file
-ogre/MeshConverter.cpp.o:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.o
-.PHONY : ogre/MeshConverter.cpp.o
+objects/Mesh.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/objects/Mesh.cpp.o
+.PHONY : objects/Mesh.cpp.o
 
-ogre/MeshConverter.i: ogre/MeshConverter.cpp.i
+objects/Mesh.i: objects/Mesh.cpp.i
 
-.PHONY : ogre/MeshConverter.i
+.PHONY : objects/Mesh.i
 
 # target to preprocess a source file
-ogre/MeshConverter.cpp.i:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.i
-.PHONY : ogre/MeshConverter.cpp.i
+objects/Mesh.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/objects/Mesh.cpp.i
+.PHONY : objects/Mesh.cpp.i
 
-ogre/MeshConverter.s: ogre/MeshConverter.cpp.s
+objects/Mesh.s: objects/Mesh.cpp.s
 
-.PHONY : ogre/MeshConverter.s
+.PHONY : objects/Mesh.s
 
 # target to generate assembly for a file
-ogre/MeshConverter.cpp.s:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/MeshConverter.cpp.s
-.PHONY : ogre/MeshConverter.cpp.s
+objects/Mesh.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/objects/Mesh.cpp.s
+.PHONY : objects/Mesh.cpp.s
 
-ogre/SDLWindow.o: ogre/SDLWindow.cpp.o
+opengl/Application.o: opengl/Application.cpp.o
 
-.PHONY : ogre/SDLWindow.o
+.PHONY : opengl/Application.o
 
 # target to build an object file
-ogre/SDLWindow.cpp.o:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.o
-.PHONY : ogre/SDLWindow.cpp.o
+opengl/Application.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Application.cpp.o
+.PHONY : opengl/Application.cpp.o
 
-ogre/SDLWindow.i: ogre/SDLWindow.cpp.i
+opengl/Application.i: opengl/Application.cpp.i
 
-.PHONY : ogre/SDLWindow.i
+.PHONY : opengl/Application.i
 
 # target to preprocess a source file
-ogre/SDLWindow.cpp.i:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.i
-.PHONY : ogre/SDLWindow.cpp.i
+opengl/Application.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Application.cpp.i
+.PHONY : opengl/Application.cpp.i
 
-ogre/SDLWindow.s: ogre/SDLWindow.cpp.s
+opengl/Application.s: opengl/Application.cpp.s
 
-.PHONY : ogre/SDLWindow.s
+.PHONY : opengl/Application.s
 
 # target to generate assembly for a file
-ogre/SDLWindow.cpp.s:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/ogre/SDLWindow.cpp.s
-.PHONY : ogre/SDLWindow.cpp.s
+opengl/Application.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Application.cpp.s
+.PHONY : opengl/Application.cpp.s
 
-util/BinaryReader.o: util/BinaryReader.cpp.o
+opengl/Camera.o: opengl/Camera.cpp.o
 
-.PHONY : util/BinaryReader.o
+.PHONY : opengl/Camera.o
 
 # target to build an object file
-util/BinaryReader.cpp.o:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/util/BinaryReader.cpp.o
-.PHONY : util/BinaryReader.cpp.o
+opengl/Camera.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Camera.cpp.o
+.PHONY : opengl/Camera.cpp.o
 
-util/BinaryReader.i: util/BinaryReader.cpp.i
+opengl/Camera.i: opengl/Camera.cpp.i
 
-.PHONY : util/BinaryReader.i
+.PHONY : opengl/Camera.i
 
 # target to preprocess a source file
-util/BinaryReader.cpp.i:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/util/BinaryReader.cpp.i
-.PHONY : util/BinaryReader.cpp.i
+opengl/Camera.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Camera.cpp.i
+.PHONY : opengl/Camera.cpp.i
 
-util/BinaryReader.s: util/BinaryReader.cpp.s
+opengl/Camera.s: opengl/Camera.cpp.s
 
-.PHONY : util/BinaryReader.s
+.PHONY : opengl/Camera.s
 
 # target to generate assembly for a file
-util/BinaryReader.cpp.s:
-	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/util/BinaryReader.cpp.s
-.PHONY : util/BinaryReader.cpp.s
+opengl/Camera.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Camera.cpp.s
+.PHONY : opengl/Camera.cpp.s
+
+opengl/Context.o: opengl/Context.cpp.o
+
+.PHONY : opengl/Context.o
+
+# target to build an object file
+opengl/Context.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Context.cpp.o
+.PHONY : opengl/Context.cpp.o
+
+opengl/Context.i: opengl/Context.cpp.i
+
+.PHONY : opengl/Context.i
+
+# target to preprocess a source file
+opengl/Context.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Context.cpp.i
+.PHONY : opengl/Context.cpp.i
+
+opengl/Context.s: opengl/Context.cpp.s
+
+.PHONY : opengl/Context.s
+
+# target to generate assembly for a file
+opengl/Context.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Context.cpp.s
+.PHONY : opengl/Context.cpp.s
+
+opengl/Mesh.o: opengl/Mesh.cpp.o
+
+.PHONY : opengl/Mesh.o
+
+# target to build an object file
+opengl/Mesh.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Mesh.cpp.o
+.PHONY : opengl/Mesh.cpp.o
+
+opengl/Mesh.i: opengl/Mesh.cpp.i
+
+.PHONY : opengl/Mesh.i
+
+# target to preprocess a source file
+opengl/Mesh.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Mesh.cpp.i
+.PHONY : opengl/Mesh.cpp.i
+
+opengl/Mesh.s: opengl/Mesh.cpp.s
+
+.PHONY : opengl/Mesh.s
+
+# target to generate assembly for a file
+opengl/Mesh.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Mesh.cpp.s
+.PHONY : opengl/Mesh.cpp.s
+
+opengl/MeshConverter.o: opengl/MeshConverter.cpp.o
+
+.PHONY : opengl/MeshConverter.o
+
+# target to build an object file
+opengl/MeshConverter.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.o
+.PHONY : opengl/MeshConverter.cpp.o
+
+opengl/MeshConverter.i: opengl/MeshConverter.cpp.i
+
+.PHONY : opengl/MeshConverter.i
+
+# target to preprocess a source file
+opengl/MeshConverter.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.i
+.PHONY : opengl/MeshConverter.cpp.i
+
+opengl/MeshConverter.s: opengl/MeshConverter.cpp.s
+
+.PHONY : opengl/MeshConverter.s
+
+# target to generate assembly for a file
+opengl/MeshConverter.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/MeshConverter.cpp.s
+.PHONY : opengl/MeshConverter.cpp.s
+
+opengl/Program.o: opengl/Program.cpp.o
+
+.PHONY : opengl/Program.o
+
+# target to build an object file
+opengl/Program.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Program.cpp.o
+.PHONY : opengl/Program.cpp.o
+
+opengl/Program.i: opengl/Program.cpp.i
+
+.PHONY : opengl/Program.i
+
+# target to preprocess a source file
+opengl/Program.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Program.cpp.i
+.PHONY : opengl/Program.cpp.i
+
+opengl/Program.s: opengl/Program.cpp.s
+
+.PHONY : opengl/Program.s
+
+# target to generate assembly for a file
+opengl/Program.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Program.cpp.s
+.PHONY : opengl/Program.cpp.s
+
+opengl/Scene.o: opengl/Scene.cpp.o
+
+.PHONY : opengl/Scene.o
+
+# target to build an object file
+opengl/Scene.cpp.o:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Scene.cpp.o
+.PHONY : opengl/Scene.cpp.o
+
+opengl/Scene.i: opengl/Scene.cpp.i
+
+.PHONY : opengl/Scene.i
+
+# target to preprocess a source file
+opengl/Scene.cpp.i:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Scene.cpp.i
+.PHONY : opengl/Scene.cpp.i
+
+opengl/Scene.s: opengl/Scene.cpp.s
+
+.PHONY : opengl/Scene.s
+
+# target to generate assembly for a file
+opengl/Scene.cpp.s:
+	cd /home/meynaert/RR/cmake-build-debug && $(MAKE) -f src/CMakeFiles/RR.dir/build.make src/CMakeFiles/RR.dir/opengl/Scene.cpp.s
+.PHONY : opengl/Scene.cpp.s
 
 # Help Target
 help:
@@ -377,12 +566,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... RR"
 	@echo "... edit_cache"
+	@echo "... exception/ContextCreationException.o"
+	@echo "... exception/ContextCreationException.i"
+	@echo "... exception/ContextCreationException.s"
 	@echo "... exception/InvalidMagicNumber.o"
 	@echo "... exception/InvalidMagicNumber.i"
 	@echo "... exception/InvalidMagicNumber.s"
-	@echo "... loaders/lwo/LwoLoader.o"
-	@echo "... loaders/lwo/LwoLoader.i"
-	@echo "... loaders/lwo/LwoLoader.s"
+	@echo "... exception/NotImplemented.o"
+	@echo "... exception/NotImplemented.i"
+	@echo "... exception/NotImplemented.s"
+	@echo "... exception/ResourceNotFound.o"
+	@echo "... exception/ResourceNotFound.i"
+	@echo "... exception/ResourceNotFound.s"
+	@echo "... loaders/mesh/lwo/LwoLoader.o"
+	@echo "... loaders/mesh/lwo/LwoLoader.i"
+	@echo "... loaders/mesh/lwo/LwoLoader.s"
 	@echo "... loaders/wad/WadFile.o"
 	@echo "... loaders/wad/WadFile.i"
 	@echo "... loaders/wad/WadFile.s"
@@ -392,18 +590,30 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... ogre/Application.o"
-	@echo "... ogre/Application.i"
-	@echo "... ogre/Application.s"
-	@echo "... ogre/MeshConverter.o"
-	@echo "... ogre/MeshConverter.i"
-	@echo "... ogre/MeshConverter.s"
-	@echo "... ogre/SDLWindow.o"
-	@echo "... ogre/SDLWindow.i"
-	@echo "... ogre/SDLWindow.s"
-	@echo "... util/BinaryReader.o"
-	@echo "... util/BinaryReader.i"
-	@echo "... util/BinaryReader.s"
+	@echo "... objects/Mesh.o"
+	@echo "... objects/Mesh.i"
+	@echo "... objects/Mesh.s"
+	@echo "... opengl/Application.o"
+	@echo "... opengl/Application.i"
+	@echo "... opengl/Application.s"
+	@echo "... opengl/Camera.o"
+	@echo "... opengl/Camera.i"
+	@echo "... opengl/Camera.s"
+	@echo "... opengl/Context.o"
+	@echo "... opengl/Context.i"
+	@echo "... opengl/Context.s"
+	@echo "... opengl/Mesh.o"
+	@echo "... opengl/Mesh.i"
+	@echo "... opengl/Mesh.s"
+	@echo "... opengl/MeshConverter.o"
+	@echo "... opengl/MeshConverter.i"
+	@echo "... opengl/MeshConverter.s"
+	@echo "... opengl/Program.o"
+	@echo "... opengl/Program.i"
+	@echo "... opengl/Program.s"
+	@echo "... opengl/Scene.o"
+	@echo "... opengl/Scene.i"
+	@echo "... opengl/Scene.s"
 .PHONY : help
 
 

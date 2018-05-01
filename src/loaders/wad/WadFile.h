@@ -14,13 +14,13 @@ private:
     std::map<std::string, std::shared_ptr<WadObject>> resources;
     std::vector<std::string> resourcesNames;
     std::vector<std::string> resourcesPaths;
+    bool open;
 
 public:
     explicit WadFile(const std::string& name);
-    const std::vector<std::string>& getAllResourcesNames() override;
-    const std::vector<std::string>& getAllResourcesPaths();
     bool hasResources(const std::string& name) override;
     std::shared_ptr<Resource> getResource(const std::string& name) override;
+    void close() override;
     ~WadFile() override = default;
 };
 

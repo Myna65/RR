@@ -4,7 +4,7 @@
 #include <chrono>
 #include <thread>
 
-#include "ogre/Application.h"
+#include "opengl/Application.h"
 
 int main() {
     try {

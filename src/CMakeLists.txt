@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(RR CXX)
+find_package(PkgConfig)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -10,11 +11,24 @@ if ( MSVC )
     set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} /W4")
 endif()
 
-file(GLOB SOURCE_FILES "*.h" "*.cpp" "**/*.h" "**/*.cpp" "**/**/*.h" "**/**/*.cpp")
-
-include_directories(/usr/local/include/OGRE/)
-include_directories(/usr/include/SDL2/)
+file(GLOB_RECURSE SOURCE_FILES "*.h" "*.cpp")
 
 add_executable(RR ${SOURCE_FILES})
-target_link_libraries(RR /usr/local/lib/libOgreMain.so)
-target_link_libraries(RR /usr/lib/libSDL2.so)
+
+find_package(OpenGL REQUIRED)
+pkg_check_modules(GLEW REQUIRED glew)
+pkg_check_modules(GLFW REQUIRED glfw3)
+pkg_check_modules(GLM REQUIRED glm)
+
+include_directories(
+        ${OPENGL_INCLUDE_DIR}
+        ${GLEW_INCLUDE_DIRS}
+        ${GLFW_INCLUDE_DIRS}
+        ${GLM_INCLUDE_DIRS}
+)
+
+target_link_libraries(RR
+        ${OPENGL_LIBRARIES}
+        ${GLEW_LIBRARIES}
+        ${GLFW_LIBRARIES}
+)

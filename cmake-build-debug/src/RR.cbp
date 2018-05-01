@@ -24,8 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/OGRE"/>
-					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/libdrm"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
@@ -48,8 +47,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/OGRE"/>
-					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/usr/include/libdrm"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.1/../../../../include/c++/7.3.1/backward"/>
@@ -66,22 +64,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/meynaert/RR/src/3d/Color.h">
+		<Unit filename="/home/meynaert/RR/src/exception/ContextCreationException.cpp">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/3d/Mesh.h">
-			<Option target="RR"/>
-		</Unit>
-		<Unit filename="/home/meynaert/RR/src/3d/Point.h">
-			<Option target="RR"/>
-		</Unit>
-		<Unit filename="/home/meynaert/RR/src/3d/Surface.h">
-			<Option target="RR"/>
-		</Unit>
-		<Unit filename="/home/meynaert/RR/src/3d/Triangle.h">
-			<Option target="RR"/>
-		</Unit>
-		<Unit filename="/home/meynaert/RR/src/3d/Vector.h">
+		<Unit filename="/home/meynaert/RR/src/exception/ContextCreationException.h">
 			<Option target="RR"/>
 		</Unit>
 		<Unit filename="/home/meynaert/RR/src/exception/InvalidMagicNumber.cpp">
@@ -90,7 +76,16 @@
 		<Unit filename="/home/meynaert/RR/src/exception/InvalidMagicNumber.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/loaders/MeshLoader.h">
+		<Unit filename="/home/meynaert/RR/src/exception/NotImplemented.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/exception/NotImplemented.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/exception/ResourceNotFound.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/exception/ResourceNotFound.h">
 			<Option target="RR"/>
 		</Unit>
 		<Unit filename="/home/meynaert/RR/src/loaders/Resource.h">
@@ -99,10 +94,10 @@
 		<Unit filename="/home/meynaert/RR/src/loaders/ResourcesProvider.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/loaders/lwo/LwoLoader.cpp">
+		<Unit filename="/home/meynaert/RR/src/loaders/mesh/lwo/LwoLoader.cpp">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/loaders/lwo/LwoLoader.h">
+		<Unit filename="/home/meynaert/RR/src/loaders/mesh/lwo/LwoLoader.h">
 			<Option target="RR"/>
 		</Unit>
 		<Unit filename="/home/meynaert/RR/src/loaders/wad/WadFile.cpp">
@@ -120,28 +115,76 @@
 		<Unit filename="/home/meynaert/RR/src/main.cpp">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/ogre/Application.cpp">
+		<Unit filename="/home/meynaert/RR/src/managers/ResourceManager.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/ogre/Application.h">
+		<Unit filename="/home/meynaert/RR/src/objects/Color.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/ogre/MeshConverter.cpp">
+		<Unit filename="/home/meynaert/RR/src/objects/Mesh.cpp">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/ogre/MeshConverter.h">
+		<Unit filename="/home/meynaert/RR/src/objects/Mesh.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/ogre/Options.h">
+		<Unit filename="/home/meynaert/RR/src/objects/Point.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/ogre/SDLWindow.cpp">
+		<Unit filename="/home/meynaert/RR/src/objects/Polygon.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/ogre/SDLWindow.h">
+		<Unit filename="/home/meynaert/RR/src/objects/Surface.h">
 			<Option target="RR"/>
 		</Unit>
-		<Unit filename="/home/meynaert/RR/src/util/BinaryReader.cpp">
+		<Unit filename="/home/meynaert/RR/src/objects/Vector.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Application.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Application.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Camera.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Camera.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Context.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Context.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Mesh.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Mesh.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/MeshConverter.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/MeshConverter.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Options.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Program.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Program.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/ResourceManager.h">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Scene.cpp">
+			<Option target="RR"/>
+		</Unit>
+		<Unit filename="/home/meynaert/RR/src/opengl/Scene.h">
 			<Option target="RR"/>
 		</Unit>
 		<Unit filename="/home/meynaert/RR/src/util/BinaryReader.h">

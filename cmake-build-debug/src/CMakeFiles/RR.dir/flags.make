@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include/OGRE -I/usr/include/SDL2 
+CXX_INCLUDES = -I/usr/include/libdrm 
 
