@@ -1,0 +1,15 @@
+language: cpp
+
+dist: trusty
+
+compiler:
+  - clang
+  - gcc
+
+before_install:
+  - sudo apt-get update -q
+  - sudo apt-get install libglfw3-dev libglew-dev libgml-dev
+
+script:
+  - cmake .
+  - cmake --build .
